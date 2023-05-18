@@ -1,0 +1,12 @@
+.button{
+  border-radius: 4px;
+  background-color: var(--bg-color-secondary); 
+  color: var(--font-color-secondary); 
+  height: 40px;
+  padding: 0px 18px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+}

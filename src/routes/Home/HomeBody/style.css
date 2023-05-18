@@ -1,0 +1,22 @@
+h2{
+    font-size: 36px;
+    color: var(--font-color-primary);
+    text-align: center;
+}
+h3{
+    font-size: 18px;
+    color: var(--font-color-tertiary);
+    text-align: center;
+}
+
+@media (min-width: 576px){
+    h2{
+        font-size: 48px; 
+        text-align: left;
+    }
+    h3{
+        font-size: 24px;
+        text-align: left;
+    }
+    
+}

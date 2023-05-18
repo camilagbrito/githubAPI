@@ -1,0 +1,13 @@
+header{
+    background-color: var(--bg-color-secondary);
+    height: 62px;
+    display: flex;
+    align-items: center;
+ 
+}
+
+header .tittle{
+    color: var(--font-color-secondary);
+    font-size: 24px;
+    font-weight: 700; 
+}

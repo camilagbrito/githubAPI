@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root {
+  --bg-color-primary: #FFF;
+  --bg-color-secondary: #1890FF;
+  --bg-color-tertiary: #E6F7FF;
+  --bg-color-quaternary:#F5F5F5;
+
+  --font-color-primary:#000;
+  --font-color-secondary: #FFF;
+  --font-color-tertiary:#7E7E7E;
+  --font-color-placeholder: #BFBFBF;
+
+  --border-color: #D9D9D9;
+
+  --font-color-search: #5C5858;
+
+  --font-color-title-card: #1890FF;
+  --font-color-inform-card: #737373;
+  --font-color-link-card: #0029FF;
+}
+
+*{
+  font-family: 'Roboto';
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a,
+a:hover {
+text-decoration: none;
+color: unset;
+}
+
+html,
+body {
+background-color: var(--dsc-color-bg-primary);
+}
+
+.container {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.mb-30{
+  margin-bottom: 30px;
+}
+
+.mt-30{
+  margin-top: 30px;
+}
+
+.m-left{
+  margin-left: 40px;
+}
+
+.dflex{
+  display: flex;
+}
+
+@media (min-width: 576px){
+  .container {
+    
+    max-width: 550px; 
+  }  
+}
+
+@media (min-width: 768px){
+  .container {
+    
+    max-width: 680px; 
+  }  
+}
+
+@media (min-width: 992px){
+  .container {
+    
+    max-width: 870px; 
+  }  
+}
+
+@media (min-width: 1200px){
+  .container {
+    
+    max-width: 1250px; 
+  }  
+}
